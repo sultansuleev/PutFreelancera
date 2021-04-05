@@ -1,0 +1,10 @@
+@import "main-set.css";
+@import "content-1.css";
+@import "content-2.css";
+@import "content-3.css";
+@import "footer.css";
+
+main {
+    display: flex;
+    flex-direction: column;
+}

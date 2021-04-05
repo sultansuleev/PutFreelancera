@@ -1,0 +1,145 @@
+
+.main-con-1 {
+    background: #F4F4F4;
+}
+
+.cent-con {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 60%;
+}
+
+.head-con-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 0px;
+    align-items: center;
+}
+
+.head-con-sec ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.head-con-sec p {
+    font-family: Lato, sans-serif;
+    color: #BBBBBB;
+    font-weight: bold;
+}
+
+.head-con-sec img {
+    width: 2em;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+li img {
+    filter: invert(47%) brightness(0.7);
+    opacity: 0.4;
+    transition: .5s ease-in;
+}
+
+li img:hover {
+    filter: invert(70%) brightness(0.3);
+    opacity: 0.8;
+    transition: .5s ease-in;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10em 0;
+}
+
+.con-1-sub-left {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #2D2D53;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 20px;
+    justify-content: space-evenly;
+    width: 46%;
+}
+
+.con-1-sub-left h3 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: .5em;
+}
+
+.con-1-sub-left h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+p {
+    margin-bottom: .5em;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.price {
+    font-size: 44px;
+}
+
+.actions button {
+    padding: 1em 2em;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 19px;
+    margin-right: 1em;
+    transition: .2s ease;
+}
+
+.green-btn {
+    background: #2CCD87;
+    border: #2CCD87;
+}
+
+.green-btn:hover {
+    background: #24a86f;
+    border: #24a86f;
+    transition: .2s ease-out;
+}
+
+.green-btn:active {
+    background: #42d796;
+    border: #42d796;
+    transition: .2s ease-in-out;
+    transform: scale(0.95);
+}
+
+.blue-btn {
+    background: #6071E3;
+    border: #6071E3;
+}
+
+.blue-btn:hover {
+    background: #3c51dd;
+    border: #3c51dd;
+    transition: .2s ease-out;
+}
+
+.blue-btn:active {
+    background: #7d8be8;
+    border: #7d8be8;
+    transition: .2s ease-in-out;
+    transform: scale(0.95);
+}
+
+.con-1-sub-right img {
+    width: 30em;
+}

@@ -1,0 +1,28 @@
+footer {
+    background: #2F325B;
+    padding: 6em 0;
+}
+
+.foot-con {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.foot-con div {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-con h2 {
+    margin-bottom: 1em;
+}
+
+.foot-con a {
+    text-decoration: none;
+    color: #ffffff;
+}
