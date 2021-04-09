@@ -2,7 +2,7 @@
 # PutFreelancera
 My simple project that I created for course "Web-technologies"
 
-## Programming Languages
+## Languages
 
 - Html, CSS and JS
 
