@@ -4,7 +4,7 @@ My simple project that I created for course "Web-technologies"
 
 ## Languages
 
-- Html, CSS and JS
+- HTML, CSS and JS
 
 ## Installation
 
